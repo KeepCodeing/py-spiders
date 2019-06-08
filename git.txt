@@ -19,6 +19,9 @@ git commit -m "描述"
 6.推送到仓库
 git push origin 分支名
 
+7.克隆仓库
+git clone git@github.com:username/projectname.git
+
 P.S.如果出现更新被拒绝，因为您当前分支的最新提交落后于其对应的远程分支错误
 
 使用如下命令
