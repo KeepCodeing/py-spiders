@@ -1,0 +1,30 @@
+1.配置git
+ssh-keygen -t rsa -C "your_email@youremail.com" 获取sshkey,在.ssh文件下的id_rsa.pub中将key复制
+打开github，找到setting/SSH and GPG keys键入key
+
+2.配置用户信息
+git config --global user.name "your name"
+git config --global user.email "your_email@youremail.com"
+
+3.添加仓库地址
+git remote add origin git@github.com:yourName/yourRepo.git
+
+4.在需要上传文件的文件夹初始化git
+git init
+
+5.添加文件&提交文件到暂存区
+git add filename
+git commit -m "描述"
+
+6.推送到仓库
+git push origin 分支名
+
+P.S.如果出现更新被拒绝，因为您当前分支的最新提交落后于其对应的远程分支错误
+
+使用如下命令
+git fetch origin
+git merge origin/分支名
+
+如在执行第二条命令时出现fatal：拒绝合并无关历史
+使用如下命令
+git pull origin master --allow-unrelated-histories
