@@ -1,0 +1,9 @@
+2019-07-04 16:27:46 [py.warnings] WARNING: D:\miniconda\lib\site-packages\pymysql\cursors.py:170: Warning: (1265, "Data truncated for column 'content' at row 1")
+  result = self._query(query)
+
+2019-07-04 17:17:00 [py.warnings] WARNING: D:\miniconda\lib\site-packages\pymysql\cursors.py:170: Warning: (1265, "Data truncated for column 'content' at row 1")
+  result = self._query(query)
+
+2019-07-04 17:17:41 [py.warnings] WARNING: D:\miniconda\lib\site-packages\pymysql\cursors.py:170: Warning: (1265, "Data truncated for column 'content' at row 1")
+  result = self._query(query)
+
