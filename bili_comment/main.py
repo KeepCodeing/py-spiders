@@ -33,14 +33,14 @@ class BiliComment():
             self.s.headers[i.split(':', 1)[0]] = i.split(':', 1)[1]
         self.s.headers['Cookie'] = self.cookies
 
-    def test(self):
+    def test(self, uid):
         test_headers = {
             'User-agent':getUa(),
             'Cookie':self.cookies
         }
         # 获取粉丝列表，如果携带的cookie有作用则可以获取最后的粉丝页数据，否则不行
         # https://api.bilibili.com/x/relation/followers?vmid=94649037&pn=19&ps=20&order=desc&jsonp=jsonp
-        followers_url = 'https://api.bilibili.com/x/relation/followers?vmid=94649037&pn=19&ps=20&order=desc&jsonp=jsonp'
+        followers_url = 'https://api.bilibili.com/x/relation/followers?vmid={uid}&pn=19&ps=20&order=desc&jsonp=jsonp'.format(uid=uid)
         data = requests.get(url=followers_url, headers = test_headers, ).json()
         print(data['data'])
 
@@ -78,6 +78,7 @@ def main():
         aid = str(i+1)
         comment.addComment(aid, '现在是:'+ now + '我在av' + aid + '留下了自己的脚印...')
         time.sleep(10)
+
 
 if __name__ == '__main__':
     main()
