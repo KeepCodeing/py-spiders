@@ -1,0 +1,14 @@
+av1发表评论失败！失败原因:{"code":12002,"message":"禁止评论","ttl":1,"data":{"need_captcha":false,"url":"","rpid":0,"rpid_str":"","dialog":0,"dialog_str":"","root":0,"root_str":"","parent":0,"parent_str":""}}
+av2发表评论成功！
+av3发表评论成功！
+av4发表评论失败！失败原因:{"code":12002,"message":"禁止评论","ttl":1,"data":{"need_captcha":false,"url":"","rpid":0,"rpid_str":"","dialog":0,"dialog_str":"","root":0,"root_str":"","parent":0,"parent_str":""}}
+av5发表评论失败！失败原因:{"code":12002,"message":"禁止评论","ttl":1,"data":{"need_captcha":false,"url":"","rpid":0,"rpid_str":"","dialog":0,"dialog_str":"","root":0,"root_str":"","parent":0,"parent_str":""}}
+av6发表评论失败！失败原因:{"code":12002,"message":"禁止评论","ttl":1,"data":{"need_captcha":false,"url":"","rpid":0,"rpid_str":"","dialog":0,"dialog_str":"","root":0,"root_str":"","parent":0,"parent_str":""}}
+av7发表评论成功！
+av8发表评论失败！失败原因:{"code":12002,"message":"禁止评论","ttl":1,"data":{"need_captcha":false,"url":"","rpid":0,"rpid_str":"","dialog":0,"dialog_str":"","root":0,"root_str":"","parent":0,"parent_str":""}}
+av9发表评论失败！失败原因:{"code":12015,"message":"验证码错误未到不能评论","ttl":1,"data":{"need_captcha":true,"url":"https://api.bilibili.com/x/v1/captcha/get?bid=reply\u0026token=85f1ee0b98054006a1cf1cebe8167273","rpid":0,"rpid_str":"","dialog":0,"dialog_str":"","root":0,"root_str":"","parent":0,"parent_str":""}}
+av10发表评论失败！失败原因:{"code":12002,"message":"禁止评论","ttl":1,"data":{"need_captcha":false,"url":"","rpid":0,"rpid_str":"","dialog":0,"dialog_str":"","root":0,"root_str":"","parent":0,"parent_str":""}}
+av11发表评论失败！失败原因:{"code":12015,"message":"验证码错误未到不能评论","ttl":1,"data":{"need_captcha":true,"url":"https://api.bilibili.com/x/v1/captcha/get?bid=reply\u0026token=e36035f7bf5f44568bffc99acacc02cc","rpid":0,"rpid_str":"","dialog":0,"dialog_str":"","root":0,"root_str":"","parent":0,"parent_str":""}}
+av12发表评论失败！失败原因:{"code":12015,"message":"验证码错误未到不能评论","ttl":1,"data":{"need_captcha":true,"url":"https://api.bilibili.com/x/v1/captcha/get?bid=reply\u0026token=90f583bcd05c42a6bb7bcfe80303f2f2","rpid":0,"rpid_str":"","dialog":0,"dialog_str":"","root":0,"root_str":"","parent":0,"parent_str":""}}
+av13发表评论失败！失败原因:{"code":12002,"message":"禁止评论","ttl":1,"data":{"need_captcha":false,"url":"","rpid":0,"rpid_str":"","dialog":0,"dialog_str":"","root":0,"root_str":"","parent":0,"parent_str":""}}
+av14发表评论失败！失败原因:{"code":12002,"message":"禁止评论","ttl":1,"data":{"need_captcha":false,"url":"","rpid":0,"rpid_str":"","dialog":0,"dialog_str":"","root":0,"root_str":"","parent":0,"parent_str":""}}
