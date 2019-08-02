@@ -37,7 +37,7 @@ class ImgTreat():
 
     def cutImg(self, pos, name):
         '''
-        截取图片并保持
+        截取图片并保存
         :param pos: 图片位置
         :return: None
         '''
