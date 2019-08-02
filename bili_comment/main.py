@@ -70,7 +70,8 @@ class BiliComment():
 
 
 def main():
-    cookies = "LIVE_BUVID=AUTO9915600470124491; sid=55nohyp9; DedeUserID=94649037; DedeUserID__ckMd5=10835a8c017fc787; SESSDATA=d80b7a7f%2C1562639060%2C83215b61; bili_jct=29ab299a7c74e0838ba0dff06a6241e5; UM_distinctid=16b3a0d67b22ee-031481412c408-5f123917-1fa400-16b3a0d67b3684; rpdid=|(u||uk|YRRY0J'ulY||lJ|u~; CURRENT_QUALITY=112; _uuid=CCCA821A-FFBD-AA9C-429F-17914E7AE60A71619infoc; finger=b3372c5f; fts=1560597732; buvid3=45AC73FC-C448-49D8-81B2-09277DA0B00D40766infoc; CURRENT_FNVAL=16; stardustvideo=1; bp_t_offset_94649037=272942500196132098"
+    # input your cookie     
+    cookies = ""
     comment = BiliComment(cookies=cookies)
     comment.str2dict()
     for i in range(10000):
